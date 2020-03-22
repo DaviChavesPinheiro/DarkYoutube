@@ -11,14 +11,12 @@ function createButton(){
     const button = document.createElement("button")
     button.classList.add("dyt")
     button.classList.add("button")
-    button.textContent = "Big Font"
+    button.textContent = "ROTATE"
     button.addEventListener("click", change)
-    document.querySelector("#buttons").prepend(button)
+    document.querySelector(".ytp-chrome-controls .ytp-right-controls").prepend(button)
     return button
 }
 
 function change() {
-    document.querySelectorAll("yt-formatted-string").forEach(el => {
-        el.classList.toggle("bigfont")
-    })
+    document.querySelector("video").classList.toggle("rotate")
 }
