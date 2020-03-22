@@ -12,11 +12,11 @@ function createButton(){
     button.classList.add("dyt")
     button.classList.add("button")
     button.textContent = "Dark"
-    button.addEventListener("click", changeColor)
+    button.addEventListener("click", change)
     document.querySelector("#buttons").prepend(button)
     return button
 }
 
-function changeColor() {
+function change() {
     document.querySelector("#content").classList.toggle("dark")
 }
