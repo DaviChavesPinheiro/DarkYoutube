@@ -1,0 +1,32 @@
+.dyt.button {
+    --paper-font-subhead_-_font-family: var(--paper-font-common-base_-_font-family);
+    --paper-font-subhead_-_-webkit-font-smoothing: var(--paper-font-common-base_-_-webkit-font-smoothing);
+    --paper-input-container-shared-input-style_-_font-family: var(--paper-font-subhead_-_font-family);
+    --paper-input-container-shared-input-style_-_-webkit-font-smoothing: var(--paper-font-subhead_-_-webkit-font-smoothing);
+
+    --yt-spec-text-primary: #fff;
+    --yt-spec-text-primary-inverse: #030303;
+
+    --app-drawer-width: 240px;
+    visibility: visible;
+    --yt-endpoint-color: var(--yt-spec-text-primary);
+    --paper-item-min-height: 40px;
+    cursor: pointer;
+    font-family: var(--paper-font-subhead_-_font-family);
+    -webkit-font-smoothing: var(--paper-font-subhead_-_-webkit-font-smoothing);
+    color: var(--yt-spec-text-primary);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    flex: 1;
+    flex-basis: 1e-9px;
+    background-color: transparent;
+    border: none;
+}
+
+.dark{
+    background-color: rgb(54, 54, 54);
+}
